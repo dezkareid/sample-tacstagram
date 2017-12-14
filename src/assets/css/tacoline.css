@@ -1,0 +1,33 @@
+.tacoline {
+	background-color: #fafafa;
+}
+
+.logo {
+	transition: opacity .5s ease;
+}
+
+.logo--invisible {
+	opacity: 0;
+}
+/* Demo Styles */
+
+.title-bar {
+  width: 100%;
+  z-index: 10;
+  transition: height .25s ease;
+  height: 4.5em;
+  background-color: #2c3840;
+}
+
+.title-bar .title-bar-right, 
+.title-bar .title-bar-left {
+  transition: padding-top .25s ease;
+  padding-top: 1.4em;
+}
+.title-bar.shrink {
+  height: 3em;
+}
+.title-bar.shrink .title-bar-right, 
+.title-bar.shrink .title-bar-left {
+  padding-top: 0em;
+}

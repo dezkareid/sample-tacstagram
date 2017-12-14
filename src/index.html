@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="vendor/foundation/foundation.min.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/landing.css"/>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="vendor/foundation/foundation.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+		<script type="text/javascript" src="assets/js/landing.js"></script>
+		<title>Tacstagram</title>
+	</head>
+	<body class="landing">
+		<main>
+			<div class="grid-container">
+				<div class="grid-x grid-padding-x align-center-middle text-center">
+					<div class="large-4 show-for-large cell">
+						<img src="https://www.njimedia.com/wp-content/uploads/2016/02/heytaco.png">
+					</div>
+					<div class="small-11 medium-7 large-4">
+						<div  class="access-box box box--white">
+							<h1 class="access-box__title">Tacstagram</h1>
+							<h5 class="access-box__subtitle subheader">Regístrate para ver fotos y videos de tacos bien ricolinos.</h5>
+							<div>
+								<button type="button" class="button button-action expanded">
+									<span class="button-action__icon">
+										<i class="fa fa-facebook-official" aria-hidden="true"></i>
+									</span>
+									Iniciar sesión con Facebook
+								</button>
+								<div class="separator">
+									<div class="separator__line"></div>
+									<span class="separator__text">O</span>
+									<div class="separator__line"></div>
+								</div>
+								<form id="registerForm" action="tacoline.html" novalidate>
+									<div class="access-form__field">
+										<input class="access-form__input" type="text" placeholder="Número celular o correo electrónico" aria-describedby="Número celular o correo electrónico" name="identifier" required>
+										<span class="container__icon--invalid hide">
+											<i class="fa fa-times-circle-o fa-2x icon--invalid" aria-hidden="true"></i>
+										</span>
+										<span class="field-error__detail"></span>
+									</div>
+									<div class="access-form__field">
+										<input class="access-form__input" type="text" placeholder="Nombre completo" aria-describedby="Nombre completo">
+										<span class="container__icon--invalid hide">
+											<i class="fa fa-times-circle-o fa-2x icon--invalid alert" aria-hidden="true"></i>
+										</span>
+										<span class="field-error__detail"></span>
+									</div>
+									<div class="access-form__field">
+										<input class="access-form__input" type="text" placeholder="Nombre de usuario" aria-describedby="Nombre del usuario">
+										<span class="container__icon--invalid hide">
+											<i class="fa fa-times-circle-o fa-2x icon--invalid alert" aria-hidden="true"></i>
+										</span>
+										<span class="field-error__detail"></span>
+									</div>
+									<div class="access-form__field">
+										<input class="access-form__input" type="password" placeholder="Contraseña" aria-describedby="Contraseña" name="password" required>
+										<span class="container__icon--invalid hide">
+											<i class="fa fa-times-circle-o fa-2x icon--invalid alert" aria-hidden="true"></i>
+										</span>
+										<span class="field-error__detail"></span>
+									</div>
+									<button type="submit" class="button expanded">Registrarte</button>
+								</form>
+								<span>Al registrarte, aceptas nuestras Condiciones y la Política de privacidad.</span>
+							</div>
+						</div>
+						<div class="box box--white margin-top-1">
+							<span>¿Tienes una cuenta? Inicia sesión</span>
+						</div>
+						<div class="margin-top-1">Descarga la aplicación</div>
+						<div class="grid-x align-center-middle margin-top-1">
+							<div class="small-5 cell">
+								<img src="https://www.ez-robot.com/EZ-Builder/app-store-logo.png">
+							</div>
+							<div class="small-5 cell">
+								<img src="http://algorithm.wiki/en/app/assets/images/button/button_download_android.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="landing-footer">
+			<div class="landing-footer__container">
+				<nav class="landing-footer__nav">
+					<ul class="nav-footer__list">
+						<li class="nav-footer__list-item">
+							<a href="">INFORMACIÓN</a>
+						</li>
+						<li class="nav-footer__list-item">
+							<a href="">AYUDA</a>
+						</li>
+						<li class="nav-footer__list-item">
+							<a href="">API</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="landing-footer__copy">© 2017 Tacstagram</div>
+			</div> 
+		</footer>
+	</body>
+</html>

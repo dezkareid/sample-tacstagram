@@ -1,0 +1,157 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('/assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'RobotoBold';
+	src: url('/assets/fonts/Roboto-Bold.ttf');
+}
+
+.access-box {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 2rem;
+}
+
+.access-box__title {
+	font-family: 'Lobster', sans-serif;
+	font-size: 3rem;
+}
+
+.access-box__subtitle {
+	font-family: 'RobotoBold';
+	font-size: 1.2rem;
+}
+
+.access-form__field {
+	position: relative;
+}
+
+.access-form__input {
+	background-color: whitesmoke;
+}
+
+.access-form__input--invalid {
+	padding-right: 2rem;
+	border-color: red;
+}
+
+.button-action {
+	padding: 0.5rem;
+}
+
+.button-action__icon {
+	margin-right : 0.25rem;
+}
+
+.container__icon--invalid {
+	color: red;
+	position: absolute;
+	top : calc(50% - 1rem);
+	bottom: calc(50% - 1rem);
+	right: 0.2rem;
+}
+
+.icon--invalid {
+	display: inline;
+}
+
+
+.landing-footer {
+	margin: auto;
+	padding: 1em 0.5rem;
+}
+
+.landing-footer__container {
+	margin: auto;
+	max-width: 935px;
+}
+
+.landing-footer__nav {
+	text-align: center;
+}
+
+.nav-footer__list {
+	margin: 0rem;
+	text-decoration: none;
+}
+
+.nav-footer__list-item {
+	display: inline-block;
+	margin: 0.2em 1rem;
+}
+
+.landing-footer__copy {
+	text-align: center;
+}
+
+.landing {
+	background-color: #fafafa;
+}
+
+.margin-top-1 {
+	margin-top: 1rem;
+}
+
+.box {
+	padding: 0.5rem 1.5rem;
+}
+.separator {
+	margin: 0.5rem 0rem;
+}
+
+.separator__line {
+	background-color: grey;
+	display: inline-block;
+	height: 1px;
+	width: calc(50% - 1rem);
+    vertical-align: middle;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	.box--white {
+		background-color: white;
+		border : 1px #dfd4d4 solid;
+	}
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+	.access-box {
+		margin-top: 2rem;
+	}
+
+	.box {
+		padding: 1.5rem;
+	}
+
+	.landing-footer {
+		padding: 2.5rem 0.5rem;
+	}
+
+	.landing-footer__nav {
+		padding-left: 4rem;
+		text-align: left;
+		width: 70%;
+	}
+
+	.landing-footer__copy {
+		width: 20%;
+	}
+
+	.landing-footer__nav, .landing-footer__copy {
+		display: inline-block;
+	}
+
+
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
